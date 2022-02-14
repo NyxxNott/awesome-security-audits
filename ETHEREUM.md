@@ -5,6 +5,7 @@
 
 ## Solidity Security Audit Checklist
 - https://github.com/miguelmota/solidity-audit-checklist
+- https://github.com/cryptofinlabs/audit-checklist
 
 ## Examples of Vulnerable Contracts
 - https://github.com/crytic/not-so-smart-contracts
