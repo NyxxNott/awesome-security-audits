@@ -5,3 +5,6 @@
 
 ## Examples of Vulnerable Contracts
 - https://github.com/crytic/not-so-smart-contracts
+
+## Reference Security Audits
+- https://github.com/Saferico/NFTigers-smart-contract-security-Audit
