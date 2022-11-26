@@ -11,7 +11,7 @@ struct applicant {
     uint32 applicantShare;
 }
 
-struct webEvent {
+struct jobEvent {
     uint32 eventID;
     uint32 eventShare;
 }
@@ -27,12 +27,21 @@ function getRevenue(eventID) return totalrevenue{
 
 }
 
-function shareRevenue(){
+function applicantRevenue(){
+    _totalRevenue = totalRevenue;
+    applicantShare = 35 * _totalRevenue / 100;
 
 }
 
+function eventRevenue(uint _totalRevenue){
+    _totalRevenue = totalRevenue;
+    eventShare = 35 * _totalRevenue / 100;
+}
 
-
+function recoremShare(uint _totalRevenue){
+    _totalRevenue = totalRevenue;
+    recoremShare = 35 * _totalRevenue / 100;
+}
 
 
 }
