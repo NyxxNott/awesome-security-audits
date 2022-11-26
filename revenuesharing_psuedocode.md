@@ -6,22 +6,30 @@ contract RevenueSharing {
 
 using SafeMath for uint256;
 
-struct Attendee
+struct applicant {
+    uint32 totalApplicants;
+    uint32 applicantShare;
+}
 
-number of attendees
-skills of attendees
+struct webEvent {
+    uint32 eventID;
+    uint32 eventShare;
+}
 
-struct meetup
+struct recorem {
+    uint32 recoremShare;
+}
 
-struct recorem
+event webEvent_start
+event webEvent_end
 
-event meetup_start
+function getRevenue(eventID) return totalrevenue{
 
-event meetup_end
+}
 
-function getRevenue()
+function shareRevenue(){
 
-function shareRevenue()
+}
 
 
 
