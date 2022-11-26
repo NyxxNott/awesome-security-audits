@@ -1,22 +1,28 @@
 
-
 pragma solidity 0.9.0;
 
 contract RevenueSharing {
 
 using SafeMath for uint256;
 
+struct Revenue{
+    address revenueAddress;
+    int balance;
+}
+
 struct applicant {
-    uint32 totalApplicants;
+    address applicantAddress;
     uint32 applicantShare;
 }
 
 struct jobEvent {
+    address eventAddress;
     uint32 eventID;
     uint32 eventShare;
 }
 
 struct recorem {
+    address recoremAddress;
     uint32 recoremShare;
 }
 
